@@ -6,3 +6,6 @@
 	
 ## Spring Boot Jpa 
 此项目引入Jpa和配置注入
+
+## Spring Cloud
+此项目使用spring boot 和 spring cloud 搭建微服务框架
