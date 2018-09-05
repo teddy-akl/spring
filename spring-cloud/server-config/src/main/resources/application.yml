@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active: server1
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/teddy-akl/spring-demo
+eureka:
+  instance:
+    prefer-ip-address: true
+    instance-id: ${spring.application.name}:${server.port}
+  client:
+    service-url:
+      defaultZone: http://teddy:123456@server1:8100/eureka,http://teddy:123456@server2:8200/eureka
+management:
+  security:
+    enabled: false
