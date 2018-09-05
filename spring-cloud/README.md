@@ -37,7 +37,9 @@ mvn clean install
 验证数据：http://localhost:9002/order/1/1
 
 ---
-其它参考：
+参考：
+
+本项目是参照以下项目编写，将其改造成Maven项目
 
 我的spring-cloud系列博客：
 [http://www.cnblogs.com/yjmyzz/tag/spring-cloud/](http://www.cnblogs.com/yjmyzz/tag/spring-cloud/)
